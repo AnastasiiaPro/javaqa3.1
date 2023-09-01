@@ -5,12 +5,12 @@ public class Main {
         int addition = 2000;
         int finalbonus;
 
-            if (addition >= 1000) {
-                finalbonus = addition / 100;
-            } else {
-                finalbonus = 0;
-            }
+        if (addition >= 1000) {
+            finalbonus = addition / 100;
+        } else {
+            finalbonus = 0;
+        }
         int finalAccount = account + addition + finalbonus;
-        System.out.println("Итоговый счёт: "  + finalAccount + " руб.");
+        System.out.println("Итоговый счёт: " + finalAccount + " руб.");
     }
 }
